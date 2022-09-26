@@ -1,7 +1,7 @@
 package WrapperClasses;
 
 public class C2 {
-    git remote add origin https://github.com/fthturker/JavaUygulamalari2022.git    public static void main(String[] args) {
+        public static void main(String[] args) {
         /*
         data tipi String olan "103" degerini byte data tipine donusturmek icin bir kod yaziniz
         ve yine data tipi String olan "2351" degerini short data tipine donusturup
