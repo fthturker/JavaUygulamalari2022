@@ -9,7 +9,7 @@ public class C3 {
         Ornek String: 'Miami 33018!!!' ise konsolda 10 yazdirmaniz gerekir
          */
         String yazi = " Miami 33018!!! ";
-        Integer karakterSayisi = yazi.replaceAll("\\s", "").replaceAll("[A-Za-z,0-9]", "").length();
+        int karakterSayisi = yazi.replaceAll("\\s", "").replaceAll("[A-Z a-z0-9]", "").length();
         System.out.println("Toplam alfabetik ve sayisal karakter sayisi : " + karakterSayisi);
     }
 }
