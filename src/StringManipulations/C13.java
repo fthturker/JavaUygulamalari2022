@@ -15,7 +15,8 @@ public class C13 {
         */
         String sifre = "!1a23bmm";
         Boolean enAzSekizKrkMi = sifre.replaceAll("\\s", "").length() >= 8;
-        Boolean enAzBirsembolVarMi = sifre.replaceAll("\\s", "").replaceAll("[A-Za-z0-9]", "").length() > 0;
+        Boolean enAzBirsembolVarMi = sifre.replaceAll("\\s", "").
+                replaceAll("[A-Za-z0-9]", "").length() > 0;
         System.out.println("sifre gecerli mi : " + (enAzSekizKrkMi && enAzBirsembolVarMi));
     }
 }

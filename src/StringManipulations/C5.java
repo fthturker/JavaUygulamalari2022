@@ -10,7 +10,8 @@ public class C5 {
          */
         String yazi = "Ali Can";
         int boslukOlmayansonKarakterIndex = yazi.trim().length() - 1;
-        String boslukOlmayansonKarakter = yazi.substring(boslukOlmayansonKarakterIndex, boslukOlmayansonKarakterIndex + 1);
+        String boslukOlmayansonKarakter = yazi.substring(boslukOlmayansonKarakterIndex,
+                boslukOlmayansonKarakterIndex + 1);
         System.out.println("bosluk Olmayan son Karakter : " + boslukOlmayansonKarakter);
     }
 }
