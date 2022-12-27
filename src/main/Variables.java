@@ -16,6 +16,7 @@ public class Variables {
 
     // Java'da Data Type'lari
     /*
+            Primitive(ilkel) Data Types
     1) int: Integer'in kısaltmasi. Integer tam sayi demektir. 32 bit kullanir
             Matematik'de tam sayilarin basi ve sonu yoktur. Fakat Java'da tam sayilarin basi ve sonu vardir
             En kucuk int:-2,147,483,648
@@ -43,26 +44,53 @@ public class Variables {
 
    8) char: Tek karakter icin kullanilir.
             "char" lara deger verirken, degeri tek tirnak arasina koyunuz. Yoksa hata verir.
+
+    Note: numeric data types: byte<short<int <long<float<double
+            Numeric olmayan Data Types: boolean - char
+
+            Non-Primitive Data Types
+     String: isim,adres,kimlik numarasi gibi bir veya birden fazla karakter iceren degerlerde kullanilir.
+                String degerleri mutlaka cift tirnak arasina konulmalidir.
+                String non-primitive dir. Yani bir String olusturdugunuzda Java size bir suru method verir.
+
+    Primitive ile Non-Primitive lerin farki nedir?
+    1) Non-Primitive data type'larinda degerin yaninda method'lar vardir
+       Primitive data type'larinda ise sadece deger vardir, method yoktur.
+    2) Primitive data type'leri Java tarafindan olusturulmustur, toplam 8 tanedir, biz primitive data olusturamayiz
+       Non-Primitive data type'leri Java tarafindan da olusturulmustur, biz de olusturabiliriz.
+       Non-Primitive lersayilamayacak kadar coktur, cunku her developer Non-Primitive data type olusturabilir
+    3) Primitive data type isimler kucuk harflerle baslar.
+       Non-Primitive data type isimleri buyuk harfle baslar
+    4) Primitive data type ler memory'de farkli buyuklukte yerler kullanır
+       Non-Primitive'lerin hepsi memory'de ayni buyuklukte yer kullanirlar
+
      */
 
     public byte price = 12;
 
-    public short populationOfVillage=23000;
+    public short populationOfVillage = 23000;
 
-    public float priceShort=13.99F;
+    public float priceShort = 13.99F;
 
-    public double weightOfCell=0.00024;
+    public double weightOfCell = 0.00024;
 
     //siz long demenize ragmen Java verilen sayiyi "int" kabul eder
     // bu yuzden, long bir variable'a "int" aralıgının disinda bir sayi verirseniz mulaka sonuna "L" veya "l" koyunuz
-    public long populationOfWorld=70000000000L;
+    public long populationOfWorld = 70000000000L;
 
     // burada "L" koymadigimiz halde problem yok cunku "123" int araligina uyar.
-    public long x=123;
+    public long x = 123;
 
-    public boolean isOld=true;
+    public boolean isOld = true;
 
-    public char initial='S';
+    public char initial = 'S';
 
+    public String name="Tom Hanks";
+
+    // Note: "main method" arabanın motoru gibidir
+    //       "main method" calismadan hicbir sey calismaz
+    public static void main(String[] args) {
+
+    }
 
 }
