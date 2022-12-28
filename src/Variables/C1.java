@@ -9,6 +9,7 @@ public class C1 {
         double gomlekFiyat = 12.99;
         double sapkaFiyat = 15.99;
         double kazakFiyat = 23.99;
-        System.out.println("Toplam Fiyat : " + (gomlekFiyat + sapkaFiyat + kazakFiyat));
+        double toplamFiyat= gomlekFiyat+sapkaFiyat+kazakFiyat;
+        System.out.println("Toplam Fiyat : " + toplamFiyat);
     }
 }

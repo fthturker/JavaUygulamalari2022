@@ -7,6 +7,12 @@ public class MethodCreation {
         System.out.println(ucSayiyiCarp(1.3,4,5));
         System.out.println(ilkIkiyiToplaUcuncuIleCarp(2,4.5,6));
 
+        // sout yazip "Enter" a basiniz System.out.println() otomatik olarak yazilir.
+        // ekrana bir sey yazdirmak icin iki tane kod var
+        // i)  System.out.println() ==> Satir basi yapar
+        // ii) System.out.print()   ==> Satir basi yapmaz
+
+
     }
     // Example 1: Toplama islemi yapan bir method olusturunuz
     public static double toplamaYap(double a,double b){
